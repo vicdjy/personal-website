@@ -1,0 +1,30 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+ }
+.nav {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.nav:hover {
+    color:aqua;
+}
+
+#top {
+  background-image: url("shanghai-view.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 635px;
+  background-size: cover;
+}
+
