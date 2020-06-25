@@ -1,30 +1,198 @@
-ul {
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
   
  }
 .nav {
   float: left;
   display: block;
+  font-family: fantasy;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 18px 20px;
   text-decoration: none;
   
 }
 
 .nav:hover {
-    color:aqua;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    color: black;
 }
 
-#top {
-  background-image: url("shanghai-view.png");
+#index-img, #interests-img{
+ 
   background-position: center;
   background-repeat: no-repeat;
   height: 635px;
   background-size: cover;
+  background-attachment: fixed; 
+  z-index: 9;
 }
+#index-img {
+    background-image: url("shanghai-view2.png");
+}
+#interests-img {
+    background-image: url("headphone.png");
+}
+#inner {
+ position: relative;
+  top: 20%;
+  text-align: center;
+  
+  color: white;
+}
+
+h1 {
+  font-size: 250%;
+  
+}
+
+h1,h2,h3{
+    color: white;
+}
+
+h2 {
+    font-size: 180%;
+}
+
+
+
+hr {
+    width: 30%;
+}
+
+ .backbone {
+  background-color: #DFCFED;
+  background-position: center;
+  background-size: cover;
+  text-align: left;
+  display: block;
+  padding: 0px;
+  margin-top: -25px;
+}
+
+body {
+    font-family: fantasy;
+}
+
+#intro,#info{
+  
+   width: 250px;
+   height: 400px;
+   
+}
+
+#intro {
+    margin-left: 8%;
+    margin-bottom: 300px;
+}
+
+#info {
+    float: right;
+    margin-right: 8%;
+    margin-bottom: 300px;
+}
+#middle {
+    text-align: center;
+    margin-left: 9%;
+    margin-bottom: 400px;
+    width: 200px;
+    height: 300px;
+}
+#pic {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+#video {
+    height: 70%;
+    width: 70%;
+    margin-left: 16%;
+    margin-top: 5%;
+}
+
+#contact {
+    height: 200px;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+#icon-linkedin {
+    margin-left: 5%;
+
+}
+
+.contact-links {
+    color: black;
+
+}
+
+.contact-links:hover {
+    color: #CFC2D1;
+}
+
+#icons {
+    height: 500px;
+    width: 100%;
+}
+
+.hobby{
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    display: inline-block;
+}
+
+.hide {
+    display:none;
+}
+
+.hobby:hover + .hide {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: 30%;
+   
+}
+
+#hobby1 {
+  background-image: url("karaoke-before.png");
+  margin-left: 10%;
+}
+
+#hobby1:hover {
+  background-image: url("karaoke-after.png");
+}
+
+#hobby1:hover + .hide {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 800px;
+    
+}
+
+#hobby2 {
+  background-image: url("book-before.png");
+  /*margin-left: 80%;*/
+  margin-left: 10%;
+}
+
+#hobby2:hover {
+    background-image: url("book-after.png");
+}
+
+#hobby3 {
+    background-image: url("swimming-before.png");
+    margin-left: 10%;
+}
+
+#hobby3:hover {
+    background-image: url("swimming-after.png");
+}
+
 
