@@ -32,10 +32,10 @@
   z-index: 9;
 }
 #index-img {
-    background-image: url("shanghai-view2.png");
+    background-image: url("src/shanghai-view2.png");
 }
 #interests-img {
-    background-image: url("headphone.png");
+    background-image: url("src/headphone.png");
 }
 #inner {
  position: relative;
@@ -161,12 +161,12 @@ body {
 }
 
 #hobby1 {
-  background-image: url("karaoke-before.png");
+  background-image: url("src/karaoke-before.png");
   margin-left: 10%;
 }
 
 #hobby1:hover {
-  background-image: url("karaoke-after.png");
+  background-image: url("src/karaoke-after.png");
 }
 
 #hobby1:hover + .hide {
@@ -177,22 +177,22 @@ body {
 }
 
 #hobby2 {
-  background-image: url("book-before.png");
+  background-image: url("src/book-before.png");
   /*margin-left: 80%;*/
   margin-left: 10%;
 }
 
 #hobby2:hover {
-    background-image: url("book-after.png");
+    background-image: url("src/book-after.png");
 }
 
 #hobby3 {
-    background-image: url("swimming-before.png");
+    background-image: url("src/swimming-before.png");
     margin-left: 10%;
 }
 
 #hobby3:hover {
-    background-image: url("swimming-after.png");
+    background-image: url("src/swimming-after.png");
 }
 
 
