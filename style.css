@@ -4,7 +4,9 @@
   padding: 0;
   overflow: hidden;
   background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
-  
+  position: fixed;
+  width: 100%;
+  z-index: 15;
  }
 .nav {
   float: left;
@@ -164,10 +166,6 @@ body {
   background-image: url("src/karaoke-after.png");
 }
 
-/*#hobby1:hover .hide {
-   
-    display: block;
-}*/
 
 #hobby2 {
   background-image: url("src/book-before.png");
