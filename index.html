@@ -4,11 +4,17 @@
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Victoria Ding-Personal Website</title>
-     <link rel="stylesheet" href="style1.css">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <script src="https://keycdn.layerjs.org/libs/layerjs/layerjs-0.6.4.min.js"></script>
-    <link href="https://keycdn.layerjs.org/libs/layerjs/layerjs-0.6.4.css" type="text/css" rel="stylesheet" /> 
-   
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="style1.css">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="https://keycdn.layerjs.org/libs/layerjs/layerjs-0.6.4.css" type="text/css" rel="stylesheet" /> 
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://keycdn.layerjs.org/libs/layerjs/layerjs-0.6.4.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
 <header class="cd-main-header text-center flex flex-column flex-center"></header>
@@ -28,22 +34,41 @@
      <h2>  About&nbsp;&nbsp;Me</h2></div>
 </div>
 
-<div class="backbone">
+<div class="backbone container-fluid row">
    <br>
    <strong><h2 style="text-align: center">Profile</h2></strong>
-     <iframe id="intro" src="profile.html" frameBorder="0" ></iframe>
-     <iframe id="middle" src="pic.html" frameBorder="0"></iframe>
-     
-     <iframe id="info" src="info.html" frameBorder="0"></iframe>
-
-     <div class="backbone" id="contact">
+    
          <br>
-         <strong><h3 style="text-align: center;color: black">Contacts</h3></strong>
-        <img id="icon-linkedin" src="src/linkedinicon.png" alt="linkedin">&nbsp;<a class="contact-links" href = "https://www.linkedin.com/in/jiayang-ding-3787b2178/">linkedin</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img id="icon-google" src="src/googleicon.png" alt="Google">&nbsp;<a class="contact-links">vicdjy@umich.edu</a>
+     <div id="intro" class="col-md-4">
+     <h3>Welcome to my page! I am a rising junior double majoring in computer science and cognitive science at University of Michigan.
+      The fields I'm specifically interested in include web development, data analysis and machine learning.
+     </h3>
+  </div>
+   
+    <div id="middle" class="col-md-4">
+       <img id="pic" src="src/Jiayang-picture.png" alt="Victoria Ding">
+    </div>
+
+    <div id="info" class="col-md-4">
+       <h3>
+       <strong>Name: </strong>Victoria Ding<br>
+       <strong>Birth Year: </strong>2000<br>
+      
+  </h3>
     </div>
 </div>
+    <div class="backbone container-fluid" id="contact">
+         <br>
+         <strong><h3 style="text-align: center;color: black">Contacts</h3></strong>
+         <br>
+         <div class="col-sm-2">
+        <img id="icon-linkedin" src="src/linkedinicon.png" alt="linkedin" href="https://www.linkedin.com/jiayang-ding-3787b2178/">&nbsp;<a class="contact-links" href = "https://www.linkedin.com/in/jiayang-ding-3787b2178/">linkedin</a>
+       </div>
+        <div class="col-sm-3">
+        <img id="icon-google" src="src/googleicon.png" alt="Google"><a class="contact-links">&nbsp;vicdjy@umich.edu</a>
+        </div>
+    </div>
+
 
 
 

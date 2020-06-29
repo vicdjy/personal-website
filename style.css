@@ -46,7 +46,7 @@
 }
 
 h1 {
-  font-size: 250%;
+  font-size: 300%;
   
 }
 
@@ -99,8 +99,8 @@ body {
     text-align: center;
     margin-left: 9%;
     margin-bottom: 400px;
-    width: 200px;
     height: 300px;
+    width: 250px;
 }
 #pic {
     border-radius: 50%;
@@ -147,18 +147,13 @@ body {
     
     display: inline-block;
 }
-
-.hide {
-    display:none;
+#hobby1:hover + #conceal1, #hobby2:hover + #conceal2, #hobby3:hover + #conceal3 {
+    display: block;
+}
+.conceal {
+    display: none;
 }
 
-.hobby:hover + .hide {
-    display: flex;
-    flex-direction: row;
-    color: white;
-    margin-left: 30%;
-   
-}
 
 #hobby1 {
   background-image: url("src/karaoke-before.png");
@@ -169,12 +164,10 @@ body {
   background-image: url("src/karaoke-after.png");
 }
 
-#hobby1:hover + .hide {
-    position: absolute;
-    margin-left: 200px;
-    margin-top: 800px;
-    
-}
+/*#hobby1:hover .hide {
+   
+    display: block;
+}*/
 
 #hobby2 {
   background-image: url("src/book-before.png");
